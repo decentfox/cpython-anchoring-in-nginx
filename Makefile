@@ -7,6 +7,7 @@ world.o: world.c
 hello: hello.o world.o
 	cc hello.o world.o -o hello
 
+
 dynamic-world.o: world.c
 	cc -c world.c -o world.o
 
@@ -16,5 +17,6 @@ world.so: dynamic-world.o
 dynamic-hello: hello.o world.so
 	cc hello.o world.so -o dynamic-hello
 
+
 clean:
-	rm a.out *.o *.so *.a hello dynamic-hello || true
+	rm -rf a.out *.o *.so *.a hello dynamic-hello build hello.egg-info dist hello7.c

@@ -1,0 +1,16 @@
+.eggs
+.idea
+.python-version
+CMakeLists.txt
+cmake-build-debug
+a.out
+*.o
+*.so
+*.a
+hello
+dynamic-hello
+build
+hello.egg-info
+dist
+hello7.c
+
