@@ -13,4 +13,7 @@ build
 hello.egg-info
 dist
 hello7.c
-
+hello8.c
+hello9.c
+hello9.h
+embed-hello
